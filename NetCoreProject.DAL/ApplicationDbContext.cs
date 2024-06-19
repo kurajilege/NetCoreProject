@@ -2,6 +2,7 @@
 {
     using System.Reflection;
     using Microsoft.EntityFrameworkCore;
+    using NetCoreProject.DAL.Interceptors;
 
     public class ApplicationDbContext : DbContext
     {
@@ -12,6 +13,7 @@
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
+            optionsBuilder.AddInterceptors(new DateInterceptor());
         }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
