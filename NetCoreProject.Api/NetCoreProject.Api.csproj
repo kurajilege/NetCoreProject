@@ -17,4 +17,8 @@
     <Folder Include="Controllers\" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\NetCoreProject.DAL\NetCoreProject.DAL.csproj" />
+  </ItemGroup>
+
 </Project>

@@ -39,7 +39,7 @@
             return Task.FromResult(entity);
         }
 
-        public void RemoveAsync(TEntity entity)
+        public void Remove(TEntity entity)
         {
             ArgumentNullException.ThrowIfNull(entity, "Entity is null.");
 
