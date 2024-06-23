@@ -120,7 +120,22 @@
   <data name="InternalServerError" xml:space="preserve">
     <value>Внутренняя ошибка сервера</value>
   </data>
+  <data name="ReportAlreadyExists" xml:space="preserve">
+    <value>Отчет с данным названием уже есть</value>
+  </data>
+  <data name="ReportNotFound" xml:space="preserve">
+    <value>Отчет не найден</value>
+  </data>
   <data name="ReportsNotFound" xml:space="preserve">
     <value>Не найдены отчеты пользователя</value>
+  </data>
+  <data name="UserAlreadyExists" xml:space="preserve">
+    <value>Пользователь с данным логином уже есть</value>
+  </data>
+  <data name="UserNotFound" xml:space="preserve">
+    <value>Пользователь не найден</value>
+  </data>
+  <data name="UsersNotFound" xml:space="preserve">
+    <value>Не найдены пользователи</value>
   </data>
 </root>

@@ -11,6 +11,6 @@
 
         Task<TEntity> UpdateAsync(TEntity entity);
 
-        void Remove(TEntity entity);
+        Task<TEntity> RemoveAsync(TEntity entity);
     }
 }

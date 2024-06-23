@@ -70,11 +70,56 @@ namespace NetCoreProject.Application.Resources {
         }
         
         /// <summary>
+        ///   Ищет локализованную строку, похожую на Отчет с данным названием уже есть.
+        /// </summary>
+        internal static string ReportAlreadyExists {
+            get {
+                return ResourceManager.GetString("ReportAlreadyExists", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на Отчет не найден.
+        /// </summary>
+        internal static string ReportNotFound {
+            get {
+                return ResourceManager.GetString("ReportNotFound", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Ищет локализованную строку, похожую на Не найдены отчеты пользователя.
         /// </summary>
         internal static string ReportsNotFound {
             get {
                 return ResourceManager.GetString("ReportsNotFound", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на Пользователь с данным логином уже есть.
+        /// </summary>
+        internal static string UserAlreadyExists {
+            get {
+                return ResourceManager.GetString("UserAlreadyExists", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на Пользователь не найден.
+        /// </summary>
+        internal static string UserNotFound {
+            get {
+                return ResourceManager.GetString("UserNotFound", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на Не найдены пользователи.
+        /// </summary>
+        internal static string UsersNotFound {
+            get {
+                return ResourceManager.GetString("UsersNotFound", resourceCulture);
             }
         }
     }

@@ -1,4 +1,4 @@
-﻿namespace NetCoreProject.Domain.Dto
+﻿namespace NetCoreProject.Domain.Dto.Report
 {
     public record ReportDto(long Id, string Name, string Description, string DateCreated);
 }
