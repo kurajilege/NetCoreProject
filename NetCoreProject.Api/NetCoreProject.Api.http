@@ -1,4 +1,4 @@
-@NetCoreProject.Api_HostAddress = http://localhost:5288
+@NetCoreProject.Api_HostAddress = http://localhost:5261
 
 GET {{NetCoreProject.Api_HostAddress}}/weatherforecast/
 Accept: application/json
